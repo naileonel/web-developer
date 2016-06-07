@@ -1,44 +1,46 @@
 /*mMenu*/
 
 .navbar-inverse .navbar-nav>li>a {
-    color:#C20A66 !important;
+    color:#FFD700 !important;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover{
-    color:#FAECEC!important;
+    color:#FFD700!important;
 }
 
 .navbar-toggle {
-    background-color:#C20A66!important;
+    background-color:#FFD700!important;
 }
 
 .navbar-inverse .navbar-toggle{
-    border-color: #C20A66!important;
+    border-color: #FFD700!important;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    background-color:#FAECEC!important;
+    background-color:#8C7853!important;
 }
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    background-color: #8C7853 !important;
+}
+
 
 .navbar-inverse{
-    background-color:#FAECEC!important;
-    color: gray;
     font-size: 20px;
-    border-color:#FAECEC!important;
 }
 
-.ima{
-    background-image: url("../imag/workspace-desk-from-above-picjumbo-com.jpg");
+.logo{
+    background-image: url("../imag/LOGO.JPG");
     background-size: 100%;
     background-position: center;
     background-repeat:no-repeat;
-    padding-bottom: 30%;
+    padding-top: 53%;
+    padding-bottom: 9%;
     }
     
 .ima2{
-    background-image: url("../imag/12976493_203609700024809_156557787_n (1).jpg");
+    background-image: url("../imag/computer-1220055_1280.jpg");
     background-size: 100%;
-    background-position: center;
+    background-attachment: fixed;
     background-repeat:no-repeat;
     }
 ul, menu, dir {
@@ -54,25 +56,17 @@ ul, menu, dir {
 
 /*sobre mi*/
 .nai{
-    width: 50%;
-    border-radius: 20%;
-    background-position: center;
-}
-
-.sobremi , .trabajos , .contacto{
-	background-image: url("../imag/old_wall.png");
-    padding-bottom: 3em;
-    padding-top: 3em;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
 }
 
 i{
-    color:#C20A66;
+    color:#FFD700;
 }
 
 
-.naibit{
-    padding-top:17.4%;
-}
 
 button, input, select, textarea {
     font-family: inherit;
@@ -80,18 +74,16 @@ button, input, select, textarea {
     line-height: inherit;
     z-index: 99999999999999999;
     }
-
-
-
+.fa{
+    width: 100%
+}
+m-t5{
+    margin-top: 5em!important;
+}
 .mt-3{
-	margin-top: 3em;
+	margin-top: 3em !important;
 }
-.mt-4{
-	margin-top: 4em;
-}
-.mt-5{
-	margin-top: 5em;
-} 
+
 .mb-4{
 	padding-bottom: 4em;
 }
@@ -101,7 +93,7 @@ button, input, select, textarea {
 }
 
 .bumpup img{
-    border: 5px solid #ccc;
+    border: 5px solid #8C7853;
     margin: 15px;
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
@@ -111,17 +103,19 @@ button, input, select, textarea {
 .bumpup img:hover {
     margin-top: 2px;
 }
+
 .resumen{
 	font-size: 20px;
 }
+
 element.style {
     visibility: visible;
     animation-name: bounceIn;
 }
+
 /*skills*/
-img{
-	width: 50%;
-}
+
+
 .bg-skills {
     position: relative;
     width: 100%;
@@ -129,7 +123,7 @@ img{
     min-height: auto;
     text-align: center;
     background-attachment: fixed;
-   	background-image: url(../imag/sackcloth-1280540_1280.jpg);
+   	background-image: url(../imag/coffee-desk-laptop-notebook.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -139,17 +133,24 @@ img{
 }
 
 .ch-item:hover .ch-info-back {
-    background-color: #DDBBD5;
+    background-color: #8C7853;
     }
+
     
 .ch-info h3 {
-    color: #fff;
+    color:#FFD700;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 14px;
     font-weight: 800;
     margin: 0 25px;
     padding: 25px 0 10px 0;
+}
+
+hr{
+    border-color: #FFD700 !important;
+    border-bottom-color: 2px;
+    width: 50%;
 }
 
 .ch-info p {
@@ -159,11 +160,13 @@ img{
     margin: 0 25px;
     font-size: 12px;
 }
+
 .section-skills h2{
 	text-transform: uppercase;
 	font-weight: 800;
 	margin-top: 1em;
 }
+
 .ch-grid{
 	margin: 20px 0 0 0;
 	list-style: none;
@@ -180,6 +183,7 @@ img{
 	box-shadow: 0 1px 2px  rgba(0,0,0,0.1);
 	cursor: default;
 }
+
 .ch-grid:after, .ch-item:before {
     content: '';
     display: table;
@@ -191,9 +195,11 @@ img{
     display: inline-block;
     margin: 20px;
 }
+
 .ch-info .ch-info-back {
     background: rgba(34,34,34,0);
 }
+
 .ch-info > div {
     display: block;
     position: absolute;
@@ -208,6 +214,7 @@ img{
     -ms-transition: all 0.6s ease-in-out;
     transition: all 0.6s ease-in-out;
 }
+
 .ch-info .ch-info-front {
     -webkit-transform-origin: 50% 100%;
     -moz-transform-origin: 50% 100%;
@@ -217,13 +224,22 @@ img{
     z-index: 100;
     box-shadow: inset 2px 1px 4px rgba(0,0,0,0.1);
 }
+
 .Style Attribute {
     visibility: visible;
     animation-name: bounceIn;
 }
-.imagen-responsive{
-	border
+
+.dg-container nav span {
+    text-indent: -9000px;
+    float: left;
+    cursor: pointer;
+    width: 24px;
+    height: 25px;
+    opacity: 0.8;
+    background: transparent url(../images/arrows.png) no-repeat top left;
 }
+
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
@@ -240,53 +256,100 @@ img{
 }
 /*trabajos*/
 
-.total-3 {
-    width: 99%;
-    height: 205px;
-    border-radius: 8%;
+.acor{
+    width: 1036px;
+    height: 320px;
 }
-
-.position-box {
-    float: left;
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-}
-
-.position-box .box-violet {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    color: #FAECEC;
-    opacity: 0;
-    background: #BD72AB;
-    border-radius: 8%;
+.accordian {
+    width: 100% !important;
+     height: 320px;
+    overflow: hidden;
     
+    /*Time for some styling*/
+    margin: 100px auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
 }
 
-strong{
-    margin-left: 40%;
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+    width: 2000px;
+    /*This will give ample space to the last item to move
+    instead of falling down/flickering during hovers.*/
 }
 
-.position-box .box-violet .box-content {
+.accordian li {
+    position: relative;
+    display: block;
+    width: 160px;
+    float: left;
+    
+    border-left: 1px solid #888;
+    
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    
+    /*Transitions to give animation effect*/
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    /*If you hover on the images now you should be able to 
+    see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 40px;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 640px;}
+
+
+.accordian li img {
+    display: block;
+
+}
+
+/*Image title styles*/
+.image_title {
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 50%;
-    width: 80%;
-    height: 164px;
-    text-align: center center;
+    left: 0; bottom: 0; 
+    width: 100%;   
+
+}
+.image_title a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
 }
 
-.position-box:hover .box-violet {
-    opacity: 1;
+.image_title a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
 }
+
 
 /*footer*/
+.contact{
+    
+    background-image: url("../imag/contacto.jpg");
+    background-size: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+	padding-top: 5em;
+	padding-bottom: 4em;
+}
+
 footer{
-	background-color: #FAECEC;
-	border-color: #FAECEC;
-	padding-top: 3em;
-	padding-bottom: 3em;
+    background-color: black;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
